@@ -1,0 +1,139 @@
+\documentclass[a4paper,10pt]{article} % Decreased font size to 10pt for better fit
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in, bottom=0.5in]{geometry} % Adjusted margins for better fit
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{xcolor} % Add this package for colors
+\usepackage{fontspec} % For custom fonts
+
+% Define darker colors
+\definecolor{darkroyalblue}{RGB}{0, 0, 139} % Darker blue color
+\definecolor{darkergray}{RGB}{30, 30, 30} % Darker gray color
+
+% Set font to Arial
+\setmainfont{Arial}
+
+\setlength{\parindent}{0pt}
+\setlist{noitemsep, topsep=0pt, leftmargin=15pt}
+\setstretch{1.05} % Slightly reduced line spacing
+
+% Customizing color for headings and lines
+\newcommand{\sectioncolor}[1]{\textcolor{darkroyalblue}{\textbf{\Large #1}}} % Increased section heading size
+\newcommand{\linecolor}{\textcolor{darkergray}{\rule{\linewidth}{0.4pt}}}
+
+% Remove page numbers
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textcolor{darkroyalblue}{\textbf{Thiruvalluvan K}}} \\ 
+    \textcolor{darkergray}{\textbf{\large Aspiring Software Engineer | Backend Development | Java • Spring Boot • Microservices}} \\
+    801-247-1042 \, | \, 
+    thiruvalluvan10032003@gmail.com \, | \, 
+    Vellore \\
+    \href{https://www.linkedin.com/in/thiruvalluvan-k}{linkedin.com/in/thiruvalluvan-k} \, | \, 
+    \href{https://github.com/Thiruvalluvan10}{github.com/Thiruvalluvan10}
+\end{center}
+\vspace{-10pt}
+
+\sectioncolor{\large Objective}
+\vspace{3pt}\\ 
+Aspiring software engineer with hands-on experience in backend development using Java, Spring Boot, and microservices. Passionate about building scalable, high-performance systems and eager to contribute to real-world software projects while continuously expanding technical skills through self-driven learning and personal projects.
+
+\vspace{-5pt}
+\linecolor
+\vspace{3pt}
+
+\sectioncolor{\large Skills} \\
+\vspace{-13pt}
+\begin{itemize}
+    \item \textbf{Languages:} Java, SQL
+    \item \textbf{Technologies:} Spring Boot, Spring Cloud, JPA, RESTful APIs, Microservices, Resilience4j
+    \item \textbf{Databases:} MySQL, PostgreSQL, H2
+    \item \textbf{Cloud:} Google Cloud Platform (GCP) - Cloud Tracing, Pub/Sub
+    \item \textbf{Tools:} Docker, Maven, Postman, Git, RabbitMQ
+\end{itemize}
+
+\vspace{-5pt}
+\linecolor
+\vspace{3pt}
+
+\sectioncolor{\large Certifications} \\
+\vspace{-11pt}
+\\
+- Java Programming -- Udemy \\
+- Docker Fundamentals -- Udemy \\
+- Spring Boot \& Microservices -- Coursera
+
+\vspace{-5pt}
+\linecolor
+\vspace{1pt}
+
+\sectioncolor{\large Projects} \\
+\vspace{-10pt}
+
+\textbf{Job Application System (Monolithic to Microservices Migration)} \hfill \textit{June 2024} \\
+Transformed a monolithic job application platform by implementing a microservices-based architecture, increasing scalability and maintainability. The transition boosted system uptime by 40\% and reduced response times by 30\%.
+
+\vspace{2pt}
+\textbf{Key Achievements:}
+\vspace{1pt}
+\begin{itemize}
+    \item Spearheaded the refactor of a monolithic system, improving performance by 30\%.
+    \item Engineered the decomposition of the platform into independent microservices, improving scalability and reducing maintenance overhead by 50\%.
+    \item Optimized inter-service communication by integrating RabbitMQ, reducing processing delays by 20\%.
+    \item Led the integration of Eureka for service discovery and Spring Cloud Gateway for centralized routing, improving resilience and system performance.
+    \item Centralized configuration management using Spring Cloud Config Server, streamlining deployments and reducing configuration errors by 25\%.
+    \item Drove horizontal scaling, resulting in a 15\% reduction in downtime and improved resource utilization.
+\end{itemize}
+
+\textbf{Technologies Used:} \\
+Spring Boot, RabbitMQ, Eureka, Spring Cloud Gateway, Docker, Maven, Postgres. \\
+\vspace{-4pt}
+
+\textbf{Job Application System (Monolithic Version)} \hfill \textit{March 2024} \\
+Engineered a Job Application System with Spring Boot and PostgreSQL to streamline the management of companies, job listings, and user feedback. Implemented CRUD operations and optimized data access with JPA.
+
+\textbf{Technologies Used:} \\
+Spring Boot, PostgreSQL, Docker, Maven, JPA. \\
+
+\vspace{-4pt}
+
+\textbf{Challenge Management App} \hfill \textit{May 2024} \\
+Developed a Spring Boot application to manage user challenges, with support for CRUD operations based on month and ID.
+
+\textbf{Technologies Used:} \\
+Spring Boot, H2 Database, RESTful APIs. \\
+
+\vspace{-4pt}
+
+\textbf{Employee Management System (Console Application)} \hfill \textit{Dec 2023} \\
+Built a Java console app to manage employee data with features like authentication and advanced search.
+
+\textbf{Technologies Used:} \\
+Java, JDBC, OOP principles. \\
+
+\vspace{-15pt}
+\linecolor
+\vspace{1pt}
+
+\sectioncolor{\large Education} \\
+\vspace{-15pt}
+\\
+B.Tech in AI and Data Science \hfill \textit{Oct 2021 -- May 2025} \\
+Sri Shakthi Institute of Engineering and Technology, Coimbatore
+
+\vspace{-5pt}
+\linecolor
+\vspace{3pt}
+
+\sectioncolor{\large Additional Information} \\
+\vspace{-13pt}
+\\
+- \textbf{Languages:} Tamil (Native), English (Fluent) \\
+- \textbf{Leetcode:} \href{https://leetcode.com/u/Thiruvalluvan10}{https://leetcode.com/u/Thiruvalluvan10} \\
+- \textbf{Interests:} Microservices Architecture, Backend Development, Cloud Computing, Cloud Native Development
+
+\end{document}
